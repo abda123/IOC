@@ -47,7 +47,7 @@ public class Test {
 			 */
 			Class cmetier = Class.forName(classMetier);
 			
-			MetierImpl objetMetier = (MetierImpl) cmetier.newInstance();
+			IMetier objetMetier = (IMetier) cmetier.newInstance();
 			/*
 			 * Invocation de la methode de la classe metierImpl.
 			 */
